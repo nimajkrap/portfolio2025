@@ -20,12 +20,21 @@ img {
     position: fixed;
     display: flex;
     flex-direction: column;
+    gap: 10px;
     align-items: center;
-    bottom: 20px;
-    right: 10px;
+    bottom: 40px;
+    right: 40px;
 }
 
-.projecttop,
-.projectback {
-    scale: 80%;
+@media (max-width:810px) {
+
+    .projectback,
+    .projecttop {
+        width: 80%;
+    }
+
+    .btn {
+        bottom: 20px;
+        right: 5px;
+    }
 }
