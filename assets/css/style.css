@@ -91,6 +91,7 @@ ul {
     background-color: #000;
     width: 100%;
     height: 100vh;
+    position: relative;
 }
 
 .home-in {
@@ -213,9 +214,10 @@ video {
     justify-items: center;
     text-align: center;
     letter-spacing: 2px;
-    position: relative;
-    top: 50px;
-    left: 0;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
     animation: scrollarrow 1s ease-out;
 }
 
