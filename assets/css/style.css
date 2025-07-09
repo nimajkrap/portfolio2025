@@ -219,7 +219,6 @@ video {
     animation: scrollarrow 1s ease-out;
 }
 
-
 .scroll-arrow img {
     margin-bottom: 10px;
     animation: scroll 1s ease-in Infinite Alternate;
