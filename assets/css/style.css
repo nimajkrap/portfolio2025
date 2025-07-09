@@ -182,6 +182,10 @@ video {
     max-width: 100%;
 }
 
+#home .text-row:nth-child(3) video {
+    width: 22vw;
+}
+
 @keyframes scroll {
     0% {
         transform: translateY(-3px);
