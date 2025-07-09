@@ -211,19 +211,24 @@ video {
     font-family: 'SUIT-Regular';
     font-weight: 100;
     color: #fff;
-    justify-items: center;
     text-align: center;
     letter-spacing: 2px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
     position: absolute;
-    bottom: 170px;
+    bottom: 210px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
+
     animation: scrollarrow 1s ease-out;
 }
 
 .scroll-arrow img {
     margin-bottom: 10px;
-    width: 40%;
     animation: scroll 1s ease-in Infinite Alternate;
 }
 
@@ -863,7 +868,7 @@ video {
     }
 
     .scroll-arrow {
-        bottom: 30px;
+        bottom: 50px;
     }
 
     /* === home === */
