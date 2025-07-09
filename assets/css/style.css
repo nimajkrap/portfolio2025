@@ -213,12 +213,12 @@ video {
     justify-items: center;
     text-align: center;
     letter-spacing: 2px;
-    position: absolute;
-    bottom: 22vh;
-    left: 50%;
-    margin-left: -35px;
+    position: relative;
+    top: 50px;
+    left: 0;
     animation: scrollarrow 1s ease-out;
 }
+
 
 .scroll-arrow img {
     margin-bottom: 10px;
