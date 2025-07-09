@@ -215,7 +215,7 @@ video {
     text-align: center;
     letter-spacing: 2px;
     position: absolute;
-    bottom: 50px;
+    bottom: 170px;
     left: 50%;
     transform: translate(-50%, -50%);
     animation: scrollarrow 1s ease-out;
@@ -708,6 +708,7 @@ video {
 /* ===== tablet ===== */
 
 @media (max-width: 1024px) {
+
     /* === interview === */
     #interview {
         margin: clamp(60px, 10vw, 100px) 0 250px 0;
@@ -762,11 +763,13 @@ video {
         scale: 105%;
         z-index: 4;
     }
+
     /* === interview === */
 }
 
 
 @media (max-width:930px) {
+
     /* === project === */
     .project-list {
         flex-direction: column;
@@ -788,6 +791,7 @@ video {
     .project-content p {
         line-height: 1.8;
     }
+
     /* === project === */
 }
 
@@ -795,6 +799,7 @@ video {
 /* ===== mobile-default ===== */
 
 @media (max-width:810px) {
+
     /* === home === */
     h1 {
         font-size: clamp(32px, 4vw, 38px);
@@ -856,6 +861,10 @@ video {
         margin: 0.5vw 0;
     }
 
+    .scroll-arrow {
+        bottom: 50px;
+    }
+
     /* === home === */
 
 
@@ -864,6 +873,7 @@ video {
         padding: 15px 20px;
         margin-left: -42.5px;
     }
+
     /* === mylogo === */
 
 
@@ -908,6 +918,7 @@ video {
         display: block;
         padding: 10px 80px;
     }
+
     /* === nav === */
 
 
@@ -969,10 +980,12 @@ video {
         border: 1px solid #fff;
         box-sizing: border-box;
     }
+
     /* === skill === */
 }
 
 @media (max-width: 523px) {
+
     /* === interview === */
     .inter-content {
         flex-direction: column;
@@ -983,6 +996,7 @@ video {
         margin-top: 0;
         margin-bottom: clamp(10px, 3vw, 20px);
     }
+
     /* === interview === */
 }
 
@@ -990,6 +1004,7 @@ video {
 /* ===== mobile-S ===== */
 
 @media (max-width: 460px) and (min-width: 320px) {
+
     /* === home === */
     h1 {
         font-size: clamp(14px, 7.5vw, 32px);
@@ -1014,6 +1029,7 @@ video {
     #home .text-row:nth-child(8) .line {
         width: 18%;
     }
+
     /* === home === */
 
 
@@ -1023,6 +1039,7 @@ video {
         margin-left: -42.5px;
         font-size: clamp(10px, 1.5vw, 18px);
     }
+
     /* === mylogo === */
 
 
@@ -1030,5 +1047,6 @@ video {
     .year {
         font-size: 10px;
     }
+
     /* === about === */
 }
