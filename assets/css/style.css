@@ -223,6 +223,7 @@ video {
 
 .scroll-arrow img {
     margin-bottom: 10px;
+    width: 40%;
     animation: scroll 1s ease-in Infinite Alternate;
 }
 
@@ -862,7 +863,7 @@ video {
     }
 
     .scroll-arrow {
-        bottom: 50px;
+        bottom: 30px;
     }
 
     /* === home === */
