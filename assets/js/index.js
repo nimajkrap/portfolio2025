@@ -1,3 +1,12 @@
+// video
+const video = document.getElementById('myVideo');
+video.addEventListener('suspend', () => {
+});
+
+video.addEventListener('play', () => {
+});
+
+
 // SKill
 $(window).scroll(function () {
     const skillTop = $('#skill').offset().top;
